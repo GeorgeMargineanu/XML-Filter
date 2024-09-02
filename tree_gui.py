@@ -11,6 +11,8 @@ from logging import debug
 import logging
 import time
 logger = logging.getLogger(__name__)
+#in order to generate the binary exe file use this: pyinstaller --onefile --add-data "alstom.png;." .\elda_copy.py 
+#make sure pyinstaller is installed
 
 def resource_path(relative_path):
     """ Get absolute path to resource, works for dev and for PyInstaller """
